@@ -4,7 +4,9 @@ This demonstrate how hot reloading of a Flask app can look like to speed up loca
 ## Usage
 Start containerized application
 ```
-docker-compose up
+pip install -r requirements.txt
+
+python app.py
 ```
 
 Take a look at `http://localhost:5000` to see get your application response.
